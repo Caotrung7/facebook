@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+  width: 590px;
+  height: 56px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  display: flex;
+  font-size: 24px;
+  color: var(--header-navbar-icon);
+  padding: 16px 42px;
+  border-radius: 8px;
+  transition: background-color ease-in-out 200ms;
+
+  &.active {
+    color: var(--primary-color);
+
+    .icon {
+      display: none;
+    }
+
+    .active-icon {
+      display: flex;
+    }
+    &:hover {
+      background-color: transparent;
+    }
+  }
+
+  &:hover {
+    background-color: #35383b;
+  }
+}
+
+.icon,
+.active-icon {
+  display: flex;
+}
+
+.active-icon {
+  display: none;
+}

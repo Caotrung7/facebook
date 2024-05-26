@@ -1,0 +1,8 @@
+.AppHeader {
+  display: flex;
+  justify-content: space-between;
+  height: var(--default-header-height);
+  background-color: var(--background-header);
+  padding-left: 16px;
+  padding-right: 16px;
+}

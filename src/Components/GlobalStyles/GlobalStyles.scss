@@ -1,0 +1,24 @@
+@import 'normalize.css';
+
+:root {
+  --primary-color: #0866ff;
+
+  //Default layout
+  --default-header-height: 56px;
+  --background-body: #18191a;
+  --background-header: #242526;
+  --primary-text: #e4e6eb;
+  --facebook-logo: #0866ff;
+  --background-search: #3a3b3c;
+  --header-navbar-icon: #b0b3b8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  //font-size: 62.5%;
+}
